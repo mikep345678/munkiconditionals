@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>conditional_items</key>
+	<array>
+		<dict>
+			<key>condition</key>
+			<string>ANY assignedapps CONTAINS 'elmo'</string>
+			<key>included_manifests</key>
+			<array>
+				<string>_elmo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>ANY assignedapps CONTAINS 'adobecs5'</string>
+			<key>included_manifests</key>
+			<array>
+				<string>_adobecs5</string>
+			</array>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>ANY assignedapps CONTAINS 'office'</string>
+			<key>included_manifests</key>
+			<array>
+				<string>_sdoboffice</string>
+			</array>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>ANY assignedapps CONTAINS 'ipevo'</string>
+			<key>included_manifests</key>
+			<array>
+				<string>_ipevo</string>
+			</array>
+		</dict>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>_flashplayer</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>AdobeReaderX</string>
+		<string>SDOB-munkiconditionals</string>
+		<string>Shockwave</string>
+		<string>Flip4Mac</string>
+		<string>Silverlight</string>
+		<string>SDOB-NB11</string>
+		<string>JavaforOSX-Lion</string>
+		<string>chrome</string>
+		<string>munkitools</string>
+		<string>Firefox</string>
+	</array>
+	<key>managed_updates</key>
+	<array>
+		<string>Firefox</string>
+		<string>SDOB_Office2011_update_14.2.3</string>
+		<string>SDOB_Office2011_update_14.2.4</string>
+		<string>SDOB-NB11</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>AdobeCS5</string>
+		<string>SoundSource</string>
+		<string>RDC Installer</string>
+		<string>WJ-III-NU</string>
+		<string>iMovie</string>
+		<string>VLC media player</string>
+		<string>GarageBandExtraContent</string>
+		<string>literacyproductivitypack</string>
+		<string>Google Earth</string>
+		<string>iPevo_Document_Camera</string>
+		<string>AdobeReaderX</string>
+		<string>chrome</string>
+		<string>munkitools</string>
+		<string>SDOB-NB11</string>
+		<string>SDOB-NB11galleries</string>
+		<string>Boardmaker</string>
+		<string>EssentialSkills</string>
+		<string>exacqVision client</string>
+		<string>FCE</string>
+		<string>Firefox</string>
+		<string>KidPix3D</string>
+		<string>imagemate</string>
+		<string>SDOB_Office_2011</string>
+		<string>iWork</string>
+	</array>
+</dict>
+</plist>
